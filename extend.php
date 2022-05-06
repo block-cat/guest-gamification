@@ -15,11 +15,9 @@ use Flarum\Extend;
 
 return [
     (new Extend\Frontend('forum'))
-        ->js(__DIR__.'/js/dist/forum.js')
-        ->css(__DIR__.'/resources/less/forum.less'),
+        ->js(__DIR__.'/js/dist/forum.js'),
     (new Extend\Frontend('admin'))
-        ->js(__DIR__.'/js/dist/admin.js')
-        ->css(__DIR__.'/resources/less/admin.less'),
+        ->js(__DIR__.'/js/dist/admin.js'),
     (new Extend\ServiceProvider())
         ->register(Providers\GamificationProvider::class),
 ];
