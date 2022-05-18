@@ -7,7 +7,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^1.2.1"
+    "flarum/core": "^1.3"
   },
   "authors": [{
     "name": "BlockCat"
